@@ -1,13 +1,14 @@
+<!--Created by Mihajlo Bondji http://mihajlobondji.com -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	  <title>Mihajlo Bonđi</title>
+	  <title>Mihajlo Bondji</title>
 	  <meta charset="utf-8" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	  <link rel="stylesheet" href="files/maincss.css" />
 	  <script src="files/jsscript.js"></script>
   </head>
-  <body onload="loaded(0)">
+  <body onload="loaded(1)">
 	  <div class="main">
 		<div class="left">
 
@@ -16,40 +17,40 @@
 			</div>
 
 			<div class="name">
-				Mihajlo Bonđi
+				Mihajlo Bondji
 			</div>
 		<!--category-->
 			<div class="category">
-				Radno iskustvo
+				Employment History
 			</div>
 			<!--5th job-->
 			<div class="titles">
-				Predsednik, ICER - Inovacioni centar za edukaciju i razvoj
+				Founding president, ICER - Innovative center for education and development
 			</div>
 
 			<div class="date">
-				NOVEMBAR 2021 — 
+				NOVEMBER 2021 — PRESENT
 			</div>
 
 			<div class="description">
-				Osnivanje i vođenje edukacionog centra u Staroj Pazovi.
-				Ovde mladi mogu da slušaju besplatne kurseve na bilo koju temu koja ih zanima.
+				Started, and running an educational center in Stara Pazova.
+				Here young people can attend on free courses on any topic they're interested in.
 				<br>
-				Više informacija na <a class="linktosite" href="https://icerpazova.com/" target="_blank"><span class="linija"></span>icerpazova.com</a>
+				More info at <a class="linktosite" href="https://icerpazova.com/" target="_blank"><span class="linija"></span>icerpazova.com</a>
 			</div>
 			<!--4th job-->
 			<div class="titles">
-				Operativni menadžer, Inovacioni Startap Centar Stara Pazova
+				Operative manager, Innovative Startup Centre Stara Pazova
 			</div>
 
 			<div class="date">
-				MART 2021 —
+				MARCH 2021 — PRESENT
 			</div>
 
 			<div class="description">
-				Vođenje lokalnog startap centra koji je projekat Regionalne razvojne agencije Srem i finansiran od strane Ministarstva za inovacije i tehnološki razvoj.
+				Coordinating a local start-up centre which is a project run by the Regional development agency and financed by the Ministry of the Innovations and Technological Development.
 				<br>
-				Ova pozicija uključuje komunikaciju između njih i opštinskih nadležnih lica kao i startap timova. Organizovanje, promovisanje i koordinisanje događaja koji se dešavaju u centru. Održavanje opreme i pružanje pomoći sa svim neophodnim stvarima za započinjanje biznisa.
+				This position includes communicating between them and municipality representatives and with startup teams. Organising, advertising and coordinating events happening in the centre. Maintaining the equipment and providing help with all requirements for starting a business.
 			</div>
 			<!--3rd job-->
 			<div class="titles">
@@ -57,59 +58,57 @@
 			</div>
 
 			<div class="date">
-				MAJ 2020 — NOVEMBAR 2020
+				MAY 2020 — NOVEMBER 2020
 			</div>
 
 			<div class="description">
-				Izrada veb sajta za centar za kulturu sa mogućnošću interaktivnog prolaska kroz galeriju sa pogledom od 360 stepeni, prikaz trenutne i arhiva izložbi u elekronskom formatu kao i ostale informacije vezane za centar.
+				Made a website for a gallery with a 360-degree view tour and other gallery information.
 				<br>
-				Više informacija na 
 				<a class="linktosite" href="https://360galerija.czkstarapazova.com/" target="_blank"><span class="linija"></span>360galerija.czkstarapazova.com</a>
 			</div>
 			<!--2nd job-->
 			<div class="titles">
-				Web Developer, "Zavod za udžbenike", Novi Sad
+				Web Developer, "Zavod za udžbenike" — book publisher, Novi Sad
 			</div>
 
 			<div class="date">
-				JUL 2019 — OKTOBAR 2019
+				JULY 2019 — OCTOBER 2019
 			</div>
 
 			<div class="description">
-				Izrada interaktivne e-knjige sa više od 500 mini-igara, animacijama koje pomažu deci da savladaju pisanje slova, alatima za učenje i testovima.
+				Made an interactive e-book with more than 500 mini-games/puzzles, letter writing animations, learning tools and tests.
 			</div>
 			<!--1st job-->
 			<div class="titles">
-				Web Developer, "Zavod za udžbenike", Novi Sad
+				Web Developer, "Zavod za udžbenike" — book publisher, Novi Sad
 			</div>
 
 			<div class="date">
-				MAJ 2019 — JUL 2019
+				MAY 2019 — JULY 2019
 			</div>
 
 			<div class="description">
-				Izrada interaktivne e-knjige sa edukativnim igricama, kvizovima i alatima za učenje.
+				Made an interactive e-book with puzzles, quizzes and learning tools.
 			</div>
-
 		<!--category-->
 			<div class="category">
-				Obrazovanje
+				Education
 			</div>
 			<!--2nd education-->
 			<div class="titles">
-				Univerzitet u Beogradu, Elektrotehnički fakultet
+				University of Belgrade, School of Electrical Engineering, Belgrade, Serbia
 			</div>
 
 			<div class="date">
-				2019 —
+				2019 — PRESENT
 			</div>
 
 			<div class="description">
-				Elektrotehnika i računarstvo - Računarska tehnika i informatika
+				Electrical and Computer Engineering - Computer Engineering and Information Theory
 			</div>
 			<!--1st education-->
 			<div class="titles">
-				Elektrotehnička škola „Nikola Tesla“, Beograd, Srbija
+				High School of Electrical Engineering „Nikola Tesla“, Belgrade, Serbia
 			</div>
 
 			<div class="date">
@@ -117,39 +116,40 @@
 			</div>
 
 			<div class="description">
-				Administrator računarskih mreža
+				Network and System Administrator
 			</div>
+
 		<!--category-->
 			<div class="category">
-				Vannastavne aktivnosti
+				Extra-curricular activities
 			</div>
 			<!--1st activity-->
 			<div class="titles">
-				Pomoćnik blagajnika, EESTEC - Udruženje studenata elektrotehnike Evrope
+				Grants Assistant, EESTEC - Electrical Engineering Students' European Association
 			</div>
 
 			<div class="date">
-				SEPTEMBAR 2020 —
+				SEPTEMBER 2020 — PRESENT
 			</div>
 
 			<div class="description">
-				Pomaganje blagajniku EESTEC LK Beograd sa traženjem, pisanjem konkursa i upravljanjem finansijama.
+				Helping treasurer of EESTEC LC Belgrade with searching, writing grants and managing finances.
 			</div>
 			<!--2nd activity-->
 			<div class="titles">
-				Logistički vođa na 2020 JobFair-u
+				Logistics Coordinator at the 2020 JobFair
 			</div>
 
 			<div class="date">
-				SEPTEMBAR 2020 — NOVEMBAR 2020
+				SEPTEMBER 2020 — NOVEMBER 2020
 			</div>
 
 			<div class="description">
-				Odgovoran za logistiku na TechTalk-u - događaju gde kompanije pričaju o svojim projektima.
+				Responsible for logistics at TechTalk - event where companies talk about their projects.
 			</div>
 		<!--category-->
 			<div class="category">
-				Sertifikati
+				Certificates
 			</div>
 			<!--1st certificate-->
 			<div class="titles">
@@ -157,19 +157,19 @@
 			</div>
 
 			<div class="date">
-				DECEMBAR 2019
+				DECEMBER 2019
 			</div>
 		<!--category-->
 			<div class="category">
-				Ostalo
+				Miscellaneous
 			</div>
 			<!--1st certificate-->
 			<div class="titles">
-				Vozačka dozvola
+				Driver licence
 			</div>
 
 			<div class="date">
-				B KATEGORIJA
+				B CATEGORY
 			</div>
 		</div>
 
@@ -185,7 +185,7 @@
 			</div>
 		<!--category-->
 			<div class="category rightside">
-				Kontakt
+				Contact
 			</div>
 
 			<div class="titles rightside">
@@ -195,7 +195,7 @@
 			</div>
 		<!--category-->
 			<div class="category rightside linksprint">
-				Društvene mreže
+				Links
 			</div>
 
 			<div class="titles rightside linksprint">
@@ -210,7 +210,7 @@
 			</div>
 		<!--category-->
 			<div class="category rightside">
-				Veštine
+				Skills
 			</div>
 
 			<div class="skills">
@@ -254,12 +254,12 @@
 			<div class="linebar"><div id="line7" class="linebarperc"></div></div>
 
 			<div class="skills">
-				Administriranje računarskih mreža
+				Computer Networking
 			</div>
 			<div class="linebar"><div id="line8" class="linebarperc"></div></div>
 
 			<div class="skills">
-				Elektronika
+				Electronics
 			</div>
 			<div class="linebar"><div id="line9" class="linebarperc"></div></div>
 
@@ -274,44 +274,44 @@
 			<div class="linebar"><div id="line11" class="linebarperc"></div></div>
 
 			<div class="skills">
-				3D modelovanje
+				3D modeling
 			</div>
 			<div class="linebar"><div id="line18" class="linebarperc"></div></div>
 
 			<div class="skills">
-				Prezentacione veštine
+				Presentation
 			</div>
 			<div class="linebar"><div id="line12" class="linebarperc"></div></div>
 
 			<div class="skills">
-				Odnosi sa privredom
+				Fundraising
 			</div>
 			<div class="linebar"><div id="line13" class="linebarperc"></div></div>
 		<!--category-->
 			<div class="category rightside">
-				Jezici
+				Languages
 			</div>
 
 			<div class="skills">
-				Engleski
+				English
 			</div>
 			<div class="linebar"><div id="line14" class="linebarperc"></div></div>
 
 			<div class="skills">
-				Srpski
+				Serbian
 			</div>
 			<div class="linebar"><div id="line15" class="linebarperc"></div></div>
 
 			<div class="skills">
-				Japanski
+				Japanese
 			</div>
 			<div class="linebar"><div id="line16" class="linebarperc"></div></div>
 
 			<div class="download" title="Download resume" onclick="window.print()"><img src="files/download.svg" height="100%"></div>
 
 			<div class="langselect">
-				<div class="englan"><a href="index.html" target="_self" class="unselect">ENG</a></div>
-				<div class="srblan"><a href="srb.html" target="_self" class="languages">SRB</a></div>
+				<div class="englan"><a href="index.html" target="_self" class="languages">ENG</a></div>
+				<div class="srblan"><a href="srb.html" target="_self" class="unselect">SRB</a></div>
 			</div>
 		</div>
 	  </div>
