@@ -35,6 +35,8 @@ function loaded(x){
 			element.classList.add("l40");
 			element = document.getElementById("line18");
 			element.classList.add("l50");
+			element = document.getElementById("line19");
+			element.classList.add("l30");
 			if(x)
 				localStorage.setItem("language","engLang");
 			else
