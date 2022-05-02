@@ -92,7 +92,7 @@ function playiphone(){
 	myVideo.play();
 	document.getElementById('play').style.display="none";
 }
-var bod=0,pro1=0,pro2=0,pro3=0,pro4=0;
+var bod=0,pro1=0,pro2=0,pro3=0,pro4=0,pro5=0;
 var completed=0;
 
 function resizefun(){
@@ -102,6 +102,7 @@ function resizefun(){
 	pro2=virtualtour.getBoundingClientRect().top-bod.top;
 	pro3=ebook.getBoundingClientRect().top-bod.top;
 	pro4=letter.getBoundingClientRect().top-bod.top;
+	pro5=tint.getBoundingClientRect().top-bod.top;
 	if(window.innerWidth!=lastinw)
 	{
 		if(window.innerWidth<=650)
@@ -140,7 +141,7 @@ function resizefun(){
 }
 
 var scrollScript = function(){
-	if(completed!=5)
+	if(completed!=6)
 	{
 		resizefun();
 		var scr=window.scrollY*0.85+window.innerHeight;
@@ -178,6 +179,13 @@ var scrollScript = function(){
 			document.getElementById('letterdiv').style.opacity="1";
 			document.querySelector('.img1').style.left="0";
 			completed=5;
+		}
+		if(completed<6)
+		if(scr>pro5)
+		{
+			document.getElementById('tintdiv').style.opacity="1";
+			document.querySelector('.img5').style.left="50vw";
+			completed=6;
 		}
 	}
 }
@@ -233,7 +241,7 @@ function setLangColor(x){
 function changelanguage(x){
 	try{
 	clearTimeout(tajmer);
-	console.log("da");
+	//console.log("da");
 	}
 	catch(err){}
 	if(x)
@@ -253,6 +261,8 @@ function changelanguage(x){
 		ebookdesc.innerHTML="Interaktivna e-knjiga sa kvizovima, mozgalicama i alatima za učenje.";
 		letter.innerHTML="Platforma za učenje slova, E-bukvar, Zavod za udžbenike";
 		letterdesc.innerHTML="Interaktivna e-knjiga sa preko 500 mini-igrica/kvizova, animacijama pisanja slova, alatima za učenje i testovima.";
+		tint.innerHTML="Informativni veb-sajt za KG Glass";
+		tintdesc.innerHTML="Informativni veb-sajt za firmu koja se bavi zatamnjivanjem stakala automobila i objekata.";
 		checkresume.innerHTML="<span></span>Moj CV<br>";
 		checkresume.style.marginTop="11vw";
 		homehead.innerHTML="Početna";
@@ -281,6 +291,8 @@ function changelanguage(x){
 		ebookdesc.innerHTML="Interactive e-book with puzzles, quizzes and learning tools.";
 		letter.innerHTML="Letter learning platform for a book publisher";
 		letterdesc.innerHTML="Interactive e-book with more than 500 mini-games/puzzles, letter writing animations, learning tools and tests.";
+		tint.innerHTML="Info website for KG Glass";
+		tintdesc.innerHTML="Info website for car tinting service shop.";
 		checkresume.innerHTML="<span></span>Check out my resume!";
 		checkresume.style.marginTop="8vw";
 		homehead.innerHTML="Home";

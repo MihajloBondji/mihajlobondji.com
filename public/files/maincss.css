@@ -437,6 +437,13 @@ html{
 	background-repeat:no-repeat;
 }
 
+.img5{
+	left:100vw;
+	background-image:url(project5.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
 .img3{
 	background-image:url(project3.jpg);
 	background-size:100% 100%;
@@ -795,7 +802,7 @@ html{
 	}
 
 	.newline{
-		width:100%;:
+		width:100%;
 		display:block;
 	}
 

@@ -16,7 +16,7 @@
 		}
 		
 		body{
-			min-height:200vh;
+			min-height:300vh;
 			max-height:fit-content;
 			background:linear-gradient(90deg, rgba(120,150,255,1) 0%, rgba(220,220,255,1) 100%);
 		}
@@ -34,8 +34,8 @@
 			position:relative;
 			margin:20px auto;
 			background:white;
-			height:135vw;
-			max-height:300vh;
+			height:155vw;
+			max-height:400vh;
 			width:80vw;
 			border-radius:1vw;
 			overflow:hidden;
@@ -220,7 +220,7 @@
 			top:95%;
 			height:4%;
 			width:auto;
-			left:80%;
+			left:70%;
 			cursor:pointer;
 			transition:top ease 0.2s;
 		}
