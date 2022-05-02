@@ -804,6 +804,7 @@ html{
 	.newline{
 		width:100%;
 		display:block;
+		height: auto;
 	}
 
 	.lang{
@@ -843,6 +844,12 @@ html{
 		padding-top:70px;
 	}
 
+	.newline2{
+		position: relative;
+		float: left;
+		width: 100%;
+	}
+	
 	.projects{
 		font-size:4.5vw;
 	}
