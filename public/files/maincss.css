@@ -307,7 +307,7 @@ html{
 
 .photo{
 	position:relative;
-	display:inline-block;
+	display:block;
 	float:left;
 	margin:0 5vw 3vw 1.5vw;
 	width:25vw;
@@ -326,12 +326,12 @@ html{
 	margin-top:10px;
 	float:left;
 	width:100%;
-	display:inline-block;
+	display:block;
 }
 
 .university{
 	position:relative;
-	display:inline-block;
+	display:block;
 	float:left;
 	margin:0 auto;
 	width:8vw;
@@ -343,7 +343,7 @@ html{
 
 .highschool{
 	position:relative;
-	display:inline-block;
+	display:block;
 	float:left;
 	margin:0 auto;
 	width:8vw;
@@ -355,7 +355,7 @@ html{
 
 .university_name{
 	position:relative;
-	display:inline-block;
+	display:block;
 	float:left;
 	margin:3vw 2vw 0 1vw;
 	font-size:1.8vw;
@@ -382,7 +382,7 @@ html{
 	background:white;
 	color:rgba(39, 44, 51,1);
 	position:relative;
-	display:inline-block;
+	display:block;
 	float:left;
 	text-shadow: 5px 5px 8px #dddddd;
 	margin-bottom:15vw;

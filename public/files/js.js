@@ -101,8 +101,8 @@ function resizefun(){
 	pro1=icer.getBoundingClientRect().top-bod.top;
 	pro2=virtualtour.getBoundingClientRect().top-bod.top;
 	pro3=ebook.getBoundingClientRect().top-bod.top;
-	pro4=letter.getBoundingClientRect().top-bod.top;
-	pro5=tint.getBoundingClientRect().top-bod.top;
+	pro4=letter.getBoundingClientRect().top-bod.top*0.95;
+	pro5=tint.getBoundingClientRect().top-bod.top*0.95;
 	if(window.innerWidth!=lastinw)
 	{
 		if(window.innerWidth<=650)
